@@ -902,6 +902,7 @@ GameObject:
   - component: {fileID: 5055163799026162131}
   - component: {fileID: 5055163799033132603}
   - component: {fileID: 3554284772725852996}
+  - component: {fileID: -5097079886802035261}
   m_Layer: 0
   m_Name: JohnLemon
   m_TagString: Untagged
@@ -935,7 +936,7 @@ Animator:
   m_GameObject: {fileID: 5055163799025862131}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: b44f3940c4940544a8c2c6aee5fa086f, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e0ef4e5572b9ef2489b1cae14e35a813, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 1
   m_ApplyRootMotion: 1
@@ -960,6 +961,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 84
   m_CollisionDetection: 0
+--- !u!114 &-5097079886802035261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5055163799025862131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63d593ddc46d2ea46b2e8eedb60a7adb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turnSpeed: 20
 --- !u!1 &5055163799025862133
 GameObject:
   m_ObjectHideFlags: 0
@@ -1216,7 +1230,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.7288002
+  m_Radius: 0.4
   m_Height: 1.4
   m_Direction: 1
   m_Center: {x: 0, y: 0.7, z: 0}
