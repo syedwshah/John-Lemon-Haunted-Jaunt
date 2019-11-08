@@ -18,3 +18,7 @@ Here's a walkthrough of implemented user stories:
 <img src='JohnLemonWalkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIFs created with [LiceCap](http://www.cockos.com/licecap/).
+
+##
+
+Thanks to Unity for the amazing assets used for this project!
