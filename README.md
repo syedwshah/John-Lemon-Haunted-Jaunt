@@ -21,4 +21,4 @@ GIFs created with [LiceCap](http://www.cockos.com/licecap/).
 
 ##
 
-Thanks to Unity for the amazing assets used for this project!
+Thanks to Unity for the amazing assets and guide used for this project!
